@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng(latitude,longitude))
                     .title("Mark")
-                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.fire_icon))
+                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.flag))
                     .draggable(false)
             );
         }
