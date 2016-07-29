@@ -7,4 +7,5 @@
 <li>BroadcastreceiverSample - пример работы с сервисом и бродкаст-ресивером</li>
 <li>AndroidAnimationSample - пример анимации View объектов</li>
 <li>SensorSample - пример использовнаия сенсоров устройств</li>
+<li>SimpleXmlSample - пример сериализации в XML при помощи внешней библиотеки</li>
 <ul>
