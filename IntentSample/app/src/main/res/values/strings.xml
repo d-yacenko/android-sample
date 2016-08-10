@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="явный_интент">явный интент</string>
+
+
+    <string name="app_name">IntentSample</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="first_activity">первая активность.</string>
+
+</resources>
