@@ -6,5 +6,6 @@
     <string name="app_name">IntentSample</string>
     <string name="hello_world">Hello world!</string>
 	<string name="first_activity">первая активность.</string>
+	<string name="implicit_activity">явная активность"</string>
 
 </resources>

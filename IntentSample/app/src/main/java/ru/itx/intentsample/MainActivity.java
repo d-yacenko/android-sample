@@ -3,6 +3,7 @@ package ru.itx.intentsample;
 import android.app.*;
 import android.os.*;
 import android.view.*;
+import android.content.*;
 
 public class MainActivity extends Activity 
 {
@@ -14,6 +15,7 @@ public class MainActivity extends Activity
     }
 	
 	public void goIntent1(View v) {
-		
+		Intent i=new Intent(this,ImplicitIntentActivity.class);
+		startActivity(i);
 	}
 }
