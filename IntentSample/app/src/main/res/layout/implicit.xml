@@ -4,6 +4,7 @@
 	android:background="#E1BEE7"
 	android:gravity="center"
     android:orientation="vertical">
+	
 	<TextView
 		android:textSize="48dp"
         android:text="@string/implicit_activity"

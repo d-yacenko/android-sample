@@ -17,11 +17,15 @@
             </intent-filter>
         </activity>
 		<activity
-			android:name=".ImplicitIntentActivity"
+			android:name=".ExplicitIntentActivity"
 			android:label="@string/implicit_activity">
 			<intent-filter/>
 		</activity>
-			
+		<activity
+			android:name=".ResultIntentActivity"
+			android:label="@string/result_activity">
+			<intent-filter/>
+		</activity>
     </application>
 
 </manifest>

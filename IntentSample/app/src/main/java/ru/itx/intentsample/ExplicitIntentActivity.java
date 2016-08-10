@@ -2,7 +2,7 @@ package ru.itx.intentsample;
 import android.app.*;
 import android.os.*;
 
-public class ImplicitIntentActivity extends Activity
+public class ExplicitIntentActivity extends Activity
 {
 
     @Override

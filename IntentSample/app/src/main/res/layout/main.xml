@@ -14,7 +14,30 @@
 	<Button android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="@string/явный_интент"
-		android:onClick="goIntent1" />
+		android:onClick="goExplicitIntent" />
+	
+	<EditText android:layout_width="120dp"
+		android:layout_height="wrap_content"
+		android:hint="@string/message"
+		android:id="@+id/message"/>
+	
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/неявный_интент"
+		android:onClick="goImplicitIntent" />
+	
+	<EditText android:layout_width="120dp"
+		android:layout_height="wrap_content"
+		android:hint="@string/query"
+		android:id="@+id/query"/>
 
-
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/результат_интент"
+		android:onClick="goIntentForResult" />
+	
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/result" />
+	
 </LinearLayout>
