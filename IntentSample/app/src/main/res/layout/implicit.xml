@@ -6,7 +6,7 @@
     android:orientation="vertical">
 	
 	<TextView
-		android:textSize="48dp"
+		android:textSize="24dp"
         android:text="@string/implicit_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
