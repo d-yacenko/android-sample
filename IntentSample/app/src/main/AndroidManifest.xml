@@ -19,12 +19,16 @@
 		<activity
 			android:name=".ExplicitIntentActivity"
 			android:label="@string/implicit_activity">
-			<intent-filter/>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+			</intent-filter>
 		</activity>
 		<activity
 			android:name=".ResultIntentActivity"
 			android:label="@string/result_activity">
-			<intent-filter/>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+			</intent-filter>
 		</activity>
     </application>
 
