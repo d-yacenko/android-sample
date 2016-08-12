@@ -11,5 +11,7 @@
 <li>DialogSample - пример всплывающего сложного диалога</li>
 <li>ProgressSample - пример разных видов прогресс-индикаторов</li>
 <li>IntentSample - пример работы с интентами</li>
+<li>SharedPreferencesSample - пример сохранения данных в SP</li>
+
 
 <ul>

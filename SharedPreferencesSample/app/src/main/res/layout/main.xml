@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <EditText
+        android:hint="@string/запомни_это"
+		android:textSize="24dp"
+		android:id="@+id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	<Button android:text="@string/выход"
+		android:onClick="close"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
