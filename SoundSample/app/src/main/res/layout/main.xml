@@ -17,6 +17,11 @@
 			android:src="@drawable/pause"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" 
+			android:onClick="pause"/>
+		<ImageButton
+			android:src="@drawable/stop"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
 			android:onClick="stop"/>
 	</LinearLayout>
 	<ImageButton

@@ -66,7 +66,15 @@ public class MainActivity extends Activity
 	{
 		sp.play(soundIdBell, 1, 1, 0, 0, 1);
 	}
-	
+
+	public void pause(View v)
+	{
+		if (!isPlay || mp == null) return;
+		if (mp.isPlaying())
+			mp.pause(); 
+		else 
+			mp.start();
+	}
 	public void stop(View v)
 	{
 		if (!isPlay) return;
