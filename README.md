@@ -13,6 +13,6 @@
 <li>IntentSample - пример работы с интентами</li>
 <li>SharedPreferencesSample - пример сохранения данных в SP</li>
 <li>SoundSample - простой пример проигрывания звука</li>
-
+<li>AnimationCanvasSample - простой пример анимации рисованием на канвасе</li>
 
 <ul>
