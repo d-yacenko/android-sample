@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">School</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_insert_dummy_data">Вставить данные</string>
+    <string name="action_delete_all_entries">Удалить все записи</string>
+
+    <string name="action_save">Сохранить</string>
+    <string name="action_delete">Удалить</string>
+
+    <string name="gender_unknown">Неизвестно</string>
+    <string name="gender_male">Mr</string>
+    <string name="gender_female">Ms</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="delete_dialog_msg">Delete this student?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="array_gender_options">
+        <item>@string/gender_female</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_unknown</item>
+    </string-array>
+
+</resources>

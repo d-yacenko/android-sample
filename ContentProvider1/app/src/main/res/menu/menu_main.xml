@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.alexanderklimov.cathouse.MainActivity">
+    <item
+        android:id="@+id/action_insert_new_data"
+        android:title="@string/action_insert_dummy_data"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_all_entries"
+        android:title="@string/action_delete_all_entries"
+        app:showAsAction="never" />
+</menu>
