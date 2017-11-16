@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message">сообщение</string>
+
+    <string name="явный_интент">явный интент</string>
+	<string name="неявный_интент">неявный интент</string>
+	<string name="результат_интент">интент с результатом</string>
+
+    <string name="app_name">IntentSample</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="first_activity">первая активность</string>
+	<string name="implicit_activity">явная активность</string>
+	<string name="result_activity">обмен данными между активностями</string>
+	<string name="query">запрос</string>
+	<string name="result">результат</string>
+	<string name="to_return">возврат</string>
+	
+</resources>

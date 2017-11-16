@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    android:gravity="center">
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center">
+		<ImageButton
+			android:src="@drawable/play"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:onClick="play"/>
+
+		<ImageButton
+			android:src="@drawable/pause"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:onClick="pause"/>
+		<ImageButton
+			android:src="@drawable/stop"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:onClick="stop"/>
+	</LinearLayout>
+	<ImageButton
+		android:src="@drawable/bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:onClick="play2"/>
+</LinearLayout>

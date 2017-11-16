@@ -10,5 +10,9 @@
 <li>SimpleXmlSample - пример сериализации в XML при помощи внешней библиотеки</li>
 <li>DialogSample - пример всплывающего сложного диалога</li>
 <li>ProgressSample - пример разных видов прогресс-индикаторов</li>
+<li>IntentSample - пример работы с интентами</li>
+<li>SharedPreferencesSample - пример сохранения данных в SP</li>
+<li>SoundSample - простой пример проигрывания звука</li>
+<li>AnimationCanvasSample - простой пример анимации рисованием на канвасе</li>
 
 <ul>

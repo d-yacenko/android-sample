@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="поверни_меня">поверни меня</string>
+
+
+    <string name="app_name">AnimationCanvasSample</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

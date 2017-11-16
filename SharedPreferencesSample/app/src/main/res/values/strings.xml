@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="выход">выход</string>
+
+    <string name="запомни_это">запомни это</string>
+
+
+    <string name="app_name">SharedPreferencesSample</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
