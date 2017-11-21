@@ -15,7 +15,7 @@ public class Util {
         ComponentName serviceComponent = new ComponentName(context, TestJobService.class);
         JobInfo.Builder builder = new JobInfo.Builder(0, serviceComponent);
         builder.setMinimumLatency(10 * 1000); // wait at least
-        builder.setOverrideDeadline(60 * 1000); // maximum delay
+//        builder.setOverrideDeadline(60 * 1000); // maximum delay
         //builder.setRequiredNetworkType(JobInfo.NETWORK_TYPE_UNMETERED); // require unmetered network
         //builder.setRequiresDeviceIdle(true); // device should be idle
         builder.setRequiresCharging(true); // we don't care if the device is charging or not
