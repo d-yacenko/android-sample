@@ -21,6 +21,11 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+// обратите внимание на то что в build.gradle (app) добавлена строка  
+// compile 'com.android.support:design:25.3.1'
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+
     /**
      * Адаптер для ListView
      */
