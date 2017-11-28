@@ -1,0 +1,9 @@
+<resources>
+    <string name="widget_name">Widget sample</string>
+    <string name="widget_text">Text in widget</string>
+    <string name="app_name">Widget sample app</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="ok">Ok</string>
+</resources>
