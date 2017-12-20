@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    tools:context="ru.itx.accessibleappsample.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:contentDescription="@string/hello"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/star_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/star"
+        android:focusable="true"
+        android:src="@android:drawable/btn_star_big_on" />
+
+    <ru.itx.accessibleappsample.LabeledImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignEnd="@+id/star_button"
+        android:layout_alignRight="@+id/star_button"
+        android:layout_below="@+id/star_button"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:focusable="true"
+        android:clickable="true"/>
+
+</RelativeLayout>

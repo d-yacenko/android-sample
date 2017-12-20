@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AccessibleAppSample</string>
+    <string name="hello">1 Install TalkBack\n2 enable it in Settings > Accessibility > TalkBack\n3 Tap to image and typyng text</string>
+    <string name="star">Star</string>
+</resources>
