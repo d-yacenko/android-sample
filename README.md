@@ -17,9 +17,9 @@
 </ul>
 
 
-<h1>Сборник примеров для подготовки к экзамену Associate Android Developer</h1>
+<h2>Сборник примеров для подготовки к экзамену Associate Android Developer</h2>
 <br/>
-<a src="https://developers.google.com/training/certification/associate-android-developer/">Associate Android Developer</a> -требования/примеры:
+<a href="https://developers.google.com/training/certification/associate-android-developer/">Associate Android Developer</a> -требования/примеры:
 <br/>
 <pre>
 Testing and debugging
