@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+// About UI Testing see here - https://developer.android.com/training/testing/ui-testing/espresso-testing.html
+
 public class MainActivity extends Activity {
     ImageView image;
     EditText editText;
