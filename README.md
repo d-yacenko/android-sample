@@ -22,7 +22,7 @@
 <a href="https://developers.google.com/training/certification/associate-android-developer/">Associate Android Developer</a> -требования/примеры:
 <br/>
 
-<B>Testing and debugging</B>
+<B>Testing and debugging</B><br/>
 Writing tests to verify that the application's logic and user interface are performing as expected, and executing those tests using the developer tools. Candidates should be able to analyze application crashes, and find common bugs such as layout errors and memory leaks. This includes working with the debuggers to step through application code and verify expected behavior.
 
 <pre>
@@ -35,7 +35,7 @@ Writing tests to verify that the application's logic and user interface are perf
     Debug and fix an issue binding data to views
 </pre>
 
-<B>Application user interface (UI) and user experience (UX)</B>
+<B>Application user interface (UI) and user experience (UX)</B><br/>
 Implementation of the visual and navigational components of an application's design. This includes constructing layouts—using both XML and Java code—that consist of the standard framework UI elements as well as custom views. Candidates should have a working knowledge of using view styles and theme attributes to apply a consistent look and feel across an entire application. Understanding of how to include features that expand the application's audience through accessibility and localization may also be required.
 <pre>
     Mock up the main screens and navigation flow of the application
@@ -51,7 +51,8 @@ Implementation of the visual and navigational components of an application's des
     Apply content descriptions to views for accessibility
     Add accessibility hooks to a custom view
 </pre>
-<B>Fundamental application components</B>
+
+<B>Fundamental application components</B><br/>
 Understanding of Android's top-level application components (Activity, Service, Broadcast Receiver, Content Provider) and the lifecycle associated with each one. Candidates should be able to describe the types of application logic that would be best suited for each component, and whether that component is executing in the foreground or in the background. This includes strategies for determining how and when to execute background work.
 <pre>
     Describe an application's key functional and nonfunctional requirements
@@ -64,7 +65,8 @@ Understanding of Android's top-level application components (Activity, Service, 
     Implement non-standard task stack navigation (deep links)
     Integrate code from an external support library
 </pre>
-<B>Persistent data storage</B>
+
+<B>Persistent data storage</B><br/>
 Determining appropriate use cases for local persisted data, and designing solutions to implement data storage using files, preferences, and databases. This includes implementing strategies for bundling static data with applications, caching data from remote sources, and managing user-generated private data. Candidates should also be able to describe platform features that allow applications to store data securely and share that data with other applications in.
 <pre>
     Define a database schema; include tables, fields, and indices
@@ -78,7 +80,8 @@ Determining appropriate use cases for local persisted data, and designing soluti
     Create persistent preference data from user input
     Toggle application logic based on preference values
 </pre>
-<B>Enhanced system integration</B>
+
+<B>Enhanced system integration</B><br/>
 Extending applications to integrate with interfaces outside the core application experience through notifications and app widgets. This includes displaying information to the user through these elements and keeping that information up to date. Candidates should also understand how to provide proper navigation from these external interfaces into the application's main task, including appropriate handling of deep links.
 
 <pre>
